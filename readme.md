@@ -1,1 +1,1 @@
-A personal simple personal webpage using html, css and javascript
+A personal webpage made using html, css and javascript
