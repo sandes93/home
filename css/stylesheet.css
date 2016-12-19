@@ -1,5 +1,8 @@
+{#D7CEC7 #C09F80 #76323F #565656}
+
 body {
   font-family: 'Catamaran', sans-serif;
+  background-color: #C09F80
   
 }
 
@@ -36,6 +39,7 @@ nav ul li {
   z-index: 1;
   background-color: #fff;
   width: 100vw;
+    background-color:#D7CEC7;
 }
 
 h1 {
@@ -75,7 +79,12 @@ a:link {
   color: #222222;
   font-weight: 600;
 }
-
+ .fa {
+  color: black;
+}
+.fa:hover{
+  color: #FF1493;
+}
 a:hover {
   color: #FF1493;
 }
@@ -221,7 +230,8 @@ figure.show{
     padding: 15px;
 }  
 
- 
+
+
 
 /* .box:hover .fade-caption {  
     opacity: 1;  
