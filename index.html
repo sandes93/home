@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
- <title>Sandesh Pathak - Fullstack Engineer</title>
- <script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sandesh Pathak - Web Developer</title>
+<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -14,152 +15,308 @@
 
 </script>
 
-  <script src="https://use.fontawesome.com/337ee3c2a3.js"></script>
-  <link rel='shortcut icon' type='image/x-icon' href='./img/favicon-code.ico'/>
-  <link href="https://npmcdn.com/basscss@8.0.1/css/basscss.min.css" rel="stylesheet">
-  <link href="./css/stylesheet.css" rel="stylesheet">
-  <link href="./css/responsive.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Catamaran:300" rel="stylesheet">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+
 </head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<body>
-  <div class="container">
-    <div class="center">
-       <a href="./index.html"><h1 class="mb0">Sandesh Pathak</h1></a>
+<!-- Header -->
+<header id="header">
+  <div class="intro text-center">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="intro-text">
+            <h1>Sandesh Pathak</h1>
+            <p>Web Developer</p>
+            <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
+        </div>
+      </div>
     </div>
-
-    <!-- first nav -->
-    <nav role="navigation" id="nav-links">
-      <ul>
+  </div>
+</header>
+<!-- Navigation -->
+<div id="nav">
+  <nav class="navbar navbar-custom">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+      </div>
+      
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden"> <a href="#page-top"></a> </li>
+          <li> <a class="page-scroll" href="#page-top">Home</a> </li>
+          <li> <a class="page-scroll" href="#about">About</a> </li>
+          <li> <a class="page-scroll" href="#skills">Skills</a> </li>
+          <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
+          <li> <a class="page-scroll" href="#testimonials">Testimonials</a> </li>
+          <li> <a class="page-scroll" href="#contact">Contact</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<!-- About Section -->
+<div id="about">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>About Me</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-3"> <img src="img/about.jpg" class="img-responsive" alt=""> </div>
+      <div class="col-xs-12 col-md-9">
+        <div class="about-text">
+          <p>Hi! My name is Sandesh. I'm a Web Developer specializing in JavaScript development.</p>
+          <a href="#portfolio" class="btn btn-primary btn-lg page-scroll">My Portfolio</a> </div>
+          <p>I also provide one-on-one tutoring sessions for SAT Math and Fundamentals of Web Development. Please use the contact me form to initiate sessions. If you are a current client please schedule sessions from the following link:</p>
+          <a href="http://whenisgood.net/m9p4n7d" class="btn btn-primary btn-lg page-scroll">Schedule Tutoring Session</a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Skills Section -->
+<div id="skills" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Skills</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="95"> <span class="percent">95</span> </span>
+        <h4>HTML5</h4>
+      </div>
+      <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="85"> <span class="percent">85</span> </span>
+        <h4>CSS3</h4>
+      </div>
+      <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="90"> <span class="percent">80</span> </span>
+        <h4>JavaScript</h4>
+      </div>
+      <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
+        <h4>Git</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">95</span> </span>
+        <h4>Unix/Linux</h4>
+      </div>
+      <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="85"> <span class="percent">85</span> </span>
+        <h4>Responsive Design</h4>
+      </div>
+      <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="60"> <span class="percent">85</span> </span>
+        <h4>UI/UX Design</h4>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Section -->
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>Portfolio</h2>
+      <hr>
+    </div>
+    <div class="categories">
+      <ul class="cat">
         <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
+          <ol class="type">
+            <li><a href="#" data-filter="*" class="active">All</a></li>
+            <li><a href="#" data-filter=".web">Web Design</a></li>
+            <li><a href="#" data-filter=".app">App Development</a></li>
+          </ol>
         </li>
       </ul>
-    </nav>
-
-    <!-- second nav -->
-    <nav id="fixed-nav" role="navigation" class="fixed top-0 left-0 flex justify-between items-baseline" style="display: none">
-      <div>
-        <h2 id="desktop-header" class="mt2 ml2 mr2 mb1 p0"><a href="./index.html">Sandesh Pathak</a></h2>
-        <h2 id="phone-header" class="mt2 ml2 mr2 mb1 p0">SP</h2>
-      </div>
-      <div id="fixed-nav-links">
-        <a class="fixed-nav-a mr2" href="#projects">Projects</a>
-        <a class="fixed-nav-a mr2" href="#about">About</a>
-        <a class="fixed-nav-a mr2" href="#contact">Contact</a>
-      </div>
-    </nav>
-
-
-     <a name="projects" class="link"></a>
-      <div class="lg-flex mb3 project-container-m diy-slideshow">
-        <div class="center mr3 screenshot-container-m">
-             <figure class ="show">
-            <a href="https://github.com/quirkycorgi/Agamari"><img src="https://media.giphy.com/media/l3vRmdRVXLkNRMjiE/giphy.gif" /></a>
-            <span>  
-              <h3>Agamari</h3>  
-              <p>A fast paced 3D multiplayer game made by a team. 
-              </p>  
-            </span>  
-          </figure>
-
-          <figure>
-            <a href="https://github.com/sandes93/Reddit-Data-Visualize"><img src="./img/karma.png" width="100%"/><span class="caption"></a>  
-              <h3>Reddit Karma Bar Graph</h3>  
-              <p>A visualizer for reddit karma based on subreddits the user has posted 
-              </p>  
-            </span>  
-          </figure>
-
-          <figure>
-            <a href="https://github.com/sandes93/JavascriptChess"><img src="./img/chess.png" width="100%"/> <span class="caption"></a>  
-              <h3>Javascript Chess</h3>  
-              <p>An in-browser chess game made to strenthen my Javascript core.
-              </p>  
-            </span>  
-          </figure>
-         
-           
-
-          <figure>
-            <img src="./img/codecommerce.png" width="100%"/><span class="caption">  
-              <h3>E-commerce website</h3>  
-              <p>A mock e-commerce website made by a team.
-              </p>  
-            </span>  
-          </figure>
-
-        
-
-          <span class="prev">&laquo;</span>
-          <span class="next">&raquo;</span>
-      </div>
-    </div>  
-    <br>
-    <hr class="mb3">
-    <div class="mb3">
-      <a name="about" class="link"></a>
-      <h4>About Me</h4>
-      <p style="text-align:justify;">
-          Hi! My name is Sandesh. I'm a Web Developer specializing in  JavaScript development and I currently work as a Frontend Engineer.
-
-      </p>
-    </div>  
-    
-    <hr class="mb3">
-    <div class="mb3">
-      <a name="contact" class="link"></a>
-      <h4>Contact Me</h4>
-      <p style="text-align:justify;">
-      I would love to hear from you. If we have not spoken yet please send me an email. Otherwise you can directly reach me on my cell phone.
-      </p>
-      <ul>
-      <li>Email
-          <a href="mailto:sandeshpathak0112@gmail.com">
-          <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
-          </a>
-      </li>
-      <li>Cell: 862-485-5121
-      </li>  
-      <li>Download V-card
-      <a href="./files/sandesh_pathak.vcf">
-        <i class="fa fa-download fa-lg" aria-hidden="true"></i>
-      </a>
-      </li>     
-      <ul>
-
+      <div class="clearfix"></div>
     </div>
-
-    <footer class="center mb3">
-      <p> 
-         <a  href="./files/SandeshPathakResume.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
-          <a href="https://github.com/sandes93"><i class="fa fa-github fa-lg"></i></a>
-          <a href="https://www.linkedin.com/in/sandeshpathak"><i class="fa fa-linkedin fa-lg"></i></a>
-          <a href="https://medium.com/@sandes93">
-          <i class="fa fa-medium fa-lg" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/sandes93"><i class="fa fa-twitter fa-lg"></i></a>
-          <a href="https://codepen.io/sandes93"> <i  class="fa fa-codepen fa-lg" aria-hidden="true"></i></a>
-          <a href="https://www.youtube.com/user/sandesptk"> <i  class="fa fa-youtube fa-lg" aria-hidden="true"></i></a>
-
-      </p>
-      <p>&copy; <script>document.write(new Date().getFullYear())</script> Sandesh Pathak</p>
-    </footer>
-
+    <div class="row">
+      <div class="portfolio-items">
+        <!-- Agamari -->
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
+          <div class="portfolio-item">
+            <div class = "project-links">
+              <a href="https://github.com/quirkycorgi/Agamari"><i class="fa fa-github fa-lg"></i></a>
+              <a href="https://www.fullstackacademy.com/final-projects/agamari"><i class="fa fa-caret-square-o-right fa-lg"></i></a>
+              <a href="http://agamari.herokuapp.com"><i class="fa fa-eye fa-lg"></i></a>
+            </div>
+            <div class="hover-bg"> <a href="https://media.giphy.com/media/l3vRmdRVXLkNRMjiE/giphy.gif" title="A web-based 3D game that allows multi-player and multi-rooms built by a team of four." rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Agamari</h4>
+                <small>App Development</small> </div>
+              <img src="img/portfolio/agamari.png" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <!-- photoshop to webpage -->
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item">
+            <div class = "project-links">
+              <a href="https://github.com/sandes93/photoshop-to-webpage"><i class="fa fa-github fa-lg"></i></a>
+              <a href="http://www.sandeshcodes.xyz/photoshop-to-webpage/"><i class="fa fa-eye fa-lg"></i></a>
+            </div>
+            <div class="hover-bg"> <a href="https://media.giphy.com/media/l3vRmdRVXLkNRMjiE/giphy.gif" title="A web design project that uses a photshop mockup to build a pixel perfect webpage" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Photoshop to Webpage</h4>
+                <small>Web Design</small> </div>
+              <img src="img/portfolio/psChallenge.png" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <!-- JavaScript Chess -->
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
+          <div class="portfolio-item">
+            <div class = "project-links">
+              <a href="https://github.com/sandes93/JavascriptChess"><i class="fa fa-github fa-lg"></i></a>
+              <a href="http://www.sandeshcodes.xyz/JavascriptChess/"><i class="fa fa-eye fa-lg"></i></a>
+            </div>
+            <div class="hover-bg"> <a href="" title="A simple chess game built using object oriented JavaScript" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>JavasScript Chess</h4>
+                <small>App Development</small> </div>
+              <img src="img/portfolio/Chess.png" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <!-- Reddit Karma Graph -->
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
+          <div class="portfolio-item">
+            <div class = "project-links">
+              <a href="https://github.com/sandes93/Reddit-Karma-Visualize"><i class="fa fa-github fa-lg"></i></a>
+            </div>
+            <div class="hover-bg"> <a href="https://media.giphy.com/media/l3vRmdRVXLkNRMjiE/giphy.gif" title="" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Reddit Karma Graph</h4>
+                <small>App Development</small> </div>
+              <img src="img/portfolio/redditKarma.png" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <!-- Personal Website 2016 -->
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item">
+            <div class = "project-links">
+              <a href=""><i class="fa fa-github fa-lg"></i></a>
+              <a href=""><i class="fa fa-eye fa-lg"></i></a>
+            </div>
+            <div class="hover-bg"> <a href="" title="Project description" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Personal Website 2016</h4>
+                <small>Web Design</small> </div>
+              <img src="img/portfolio/personalWebsite2016.png" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+         <!-- Personal Website 2017 -->
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item">
+            <div class = "project-links">
+              <a href="https://github.com/sandes93/sandes93.github.io"><i class="fa fa-github fa-lg"></i></a>
+              <a href="http://www.sandeshcodes.xyz"><i class="fa fa-eye fa-lg"></i></a>
+            </div>
+            <div class="hover-bg"> <a href="" title="This current version of my personal website" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Personal Website 2017</h4>
+                <small>Web Design</small> </div>
+              <img src="img/portfolio/personalWebsite2017.png" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+    </div>
   </div>
-
-  
-<script  type="text/javascript" src="./js/fontAwesome.js"></script>
-<script  type="text/javascript" src="./js/jquery.js"></script>
-<script type="text/javascript" src="./js/ui.js"></script>
-<script  type="text/javascript" src = "./js/slideshow.js"></script>
-
+</div>
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+  <div class="overlay">
+    <div class="container">
+      <div class="section-title center">
+        <h2>Get In Touch</h2>
+        <hr>
+      </div>
+      <div class="col-md-8 col-md-offset-2">
+        <form method="POST" action="http://formspree.io/sandeshpathak0112@gmail.com" name="sentMessage" id="contactForm">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+            <p class="help-block text-danger"></p>
+          </div>
+          <div id="success"></div>
+          <button type="submit" class="btn btn-default">Send Message</button>
+        </form>
+        <div class="social">
+          <ul>
+            <li class="text-on-top">
+              <span>Download V-card</span><a href="./files/sandesh_pathak.vcf"><i class="fa fa-download fa-lg" aria-hidden="true"></i></a>
+            </li>
+            <li class="text-on-top"> 
+              <span>View Resume</span>
+              <a href="./files/SandeshPathakResume.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            </li>
+            <li class="text-on-top"> 
+              <span>Github Link</span>
+              <a href="https://github.com/sandes93"><i class="fa fa-github fa-lg"></i></a></li>
+            <li class="text-on-top"> 
+              <span>Linkedin Link</span>
+              <a href="https://www.linkedin.com/in/sandeshpathak"><i class="fa fa-linkedin fa-lg"></i></a></li>
+            <li class="text-on-top"> 
+              <span>Medium Link</span>
+              <a href="https://medium.com/@sandes93">
+            <i class="fa fa-medium fa-lg" aria-hidden="true"></i></a></li>
+            <li class="text-on-top"> 
+              <span>Twitter Link</span>
+              <a href="https://twitter.com/sandes93"><i class="fa fa-twitter fa-lg"></i></a></li>
+            <li class="text-on-top"> 
+              <span>Codepen Link</span>
+              <a href="https://codepen.io/sandes93"> <i  class="fa fa-codepen fa-lg" aria-hidden="true"></i></a></li>
+            <li class="text-on-top"> 
+              <span>Youtube Link</span>
+              <a href="https://www.youtube.com/user/sandesptk"> <i  class="fa fa-youtube fa-lg" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="container text-center">
+    <div class="fnav">
+      <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Sandesh Pathak</p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/easypiechart.js"></script> 
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jquery.counterup.js"></script> 
+<script type="text/javascript" src="js/waypoints.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
 </body>
-
 </html>
