@@ -422,30 +422,7 @@ ol.type li a:hover {
 	padding: 5px;
 	color: #E87E04;
 }
-/* Testimonials Section */
-#testimonials {
-	padding: 100px 0;
-	background: #F6F6F6;
-}
-#testimonials blockquote {
-	position: relative;
-	margin-top: 20px;
-	border: 0;
-	text-align: center;
-	background: #fff;
-	padding: 30px 20px;
-}
-#testimonials i {
-	font-size: 24px;
-	color: #eee;
-	margin-bottom: 14px;
-}
-#testimonials .clients-name {
-	display: inline-block;
-	border-top: 1px solid #eee;
-	padding-top: 20px;
-	margin-top: 10px;
-}
+
 /* Contact Section */
 #contact {
 	color: #fff;
@@ -537,11 +514,7 @@ color: #2c3e50;
 }
 #contact .social ul li {
 	display: inline-block;
-	margin: 0 16px;
-}
-#contact .social ul li {
-	display: inline-block;
-	margin: 0 16px;
+	margin: 0 12px;
 }
 #contact .social i.fa {
 	font-size: 30px;
@@ -565,7 +538,7 @@ color: #2c3e50;
     bottom: -16px;
     left: 0;
     right: 0;
-    color: palevioletred;
+    color: #fff;
 }
 
 /* Footer Section*/
