@@ -543,9 +543,12 @@ color: #2c3e50;
 
 /* Footer Section*/
 #footer {
-	background: #222;
-	color: #777;
-	padding: 30px 0 25px 0;
+	position: absolute;
+    background: #222;
+    color: #777;
+    left: 0;
+    right: 0;
+    padding: 40px 0 40px 0;
 }
 #footer p {
 	font-size: 13px;
